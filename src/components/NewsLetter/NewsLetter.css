@@ -1,0 +1,42 @@
+.newsletter-container{
+    background-color: #E5E5E5;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+
+.news-letter{
+    position:relative;
+    left: 25%;
+    background-color: white;
+    border-radius: 5%;
+    width: 800px;
+    height: 90%;
+    border: 1px solid black;
+
+}
+.news-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.news-input{
+    width: 60%;
+    height: 18%;
+    border: groove;
+    position: relative;
+    left: 20%;
+    border-radius: 7%;
+    padding-top: 5px;
+}
+.news-input input{
+    width: 90%;
+    border: none;
+    
+}
+.news-input button{
+    border: none;
+    border-radius: 50%;
+    background-color: #F86338;
+}

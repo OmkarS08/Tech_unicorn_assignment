@@ -26,15 +26,15 @@ export const Navigation =() =>{
 <Navbar bg="light" sticky="top" variant="dark">
    <Container>
    <Nav  className="me-auto ">
-       <Nav.Link className='nav-items' href="#home">Shop</Nav.Link>
-       <Nav.Link className='nav-items' href="#features">Promo</Nav.Link>
-       <Nav.Link className='nav-items' href="#pricing">About</Nav.Link>
-       <Nav.Link className='nav-items' href="#pricing">Blog</Nav.Link>
-       <Nav.Link className='nav-searchBar' as='span' href="#pricing"><input type='search' placeholder='Search What you need' /></Nav.Link>
-       <Nav.Link className='nav-items' href="#pricing"><IoHeartOutline style={style}/></Nav.Link>
-       <Nav.Link className='nav-items' href="#pricing"><AiOutlineShoppingCart style={style}/></Nav.Link>
-       <Nav.Link className='nav-items' href="#pricing"><AiOutlineUser style={style}/></Nav.Link>
-       <Nav.Link className='nav-items' href="#pricing"><AiOutlineBell style={style}/></Nav.Link>
+       <Nav.Link className='nav-items'>Shop</Nav.Link>
+       <Nav.Link className='nav-items'>Promo</Nav.Link>
+       <Nav.Link className='nav-items'>About</Nav.Link>
+       <Nav.Link className='nav-items'>Blog</Nav.Link>
+       <Nav.Link className='nav-searchBar' as='span'><input type='search' placeholder='Search What you need' /></Nav.Link>
+       <Nav.Link className='nav-items'><IoHeartOutline style={style}/></Nav.Link>
+       <Nav.Link className='nav-items'><AiOutlineShoppingCart style={style}/></Nav.Link>
+       <Nav.Link className='nav-items'><AiOutlineUser style={style}/></Nav.Link>
+       <Nav.Link className='nav-items'><AiOutlineBell style={style}/></Nav.Link>
    </Nav>
    </Container>
 </Navbar>

@@ -26,5 +26,8 @@ export const ProductContainer =()=>{
         <div className='product-card-container'>
             {data.map((items)=> {return <ProductCard key={items.id} products= {items} />})}  
         </div>
+        <div className='product-card-button'>
+        <button >Find out more</button></div>
+ 
         </div>)
 }

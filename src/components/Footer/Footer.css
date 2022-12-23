@@ -1,0 +1,46 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 40px;
+}
+.image-footer{
+    width: 33%;
+}
+.image-footer .imgft{
+    width: 60%;
+    height: 60%;
+    background-color: grey;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.content-footer{
+    width: 33%;
+    padding-top: 2.5%;
+}
+.content-footer h2{
+    color: #F86338;
+}
+.content-footer h6{
+    padding-top: 10px;
+}
+.content-footer p{
+    padding-top: 20px;
+}
+
+.contact-footer{
+    width: 33%;
+    padding-top:2.5%;
+}
+
+.contact-footer ul{
+    list-style: none;
+    display: flex;
+}
+.contact-footer button{
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #F86338;
+    border: none;
+}

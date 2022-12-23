@@ -7,10 +7,6 @@ function App() {
     <div >
     <Navigation/>   
     <HomeComponent/>
-    <h2>Shop</h2>
-    <h2>Product Details</h2>
-    <h2>Gallery</h2>
-    <h2>Cart</h2>
     </div>
   );
 }
