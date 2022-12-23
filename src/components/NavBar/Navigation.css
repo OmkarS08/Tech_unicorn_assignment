@@ -1,0 +1,14 @@
+.heading-container{
+    display: flex;
+}
+
+.brand-logo-container{
+    width: 50%;
+}
+.brand-logo-container h2{
+    color: #F3692E;
+}
+
+.icon-heading-container{
+    display: flex;
+}
