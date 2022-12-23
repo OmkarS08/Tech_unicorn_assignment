@@ -1,11 +1,12 @@
-import { Navbar } from 'react-bootstrap';
+
 import './App.css';
+import { HomeComponent } from './routes/HomeComponent/HomeComponet';
 import { Navigation } from './components/NavBar/Navigation';
 function App() {
   return (
     <div >
     <Navigation/>   
-    <h2>Home</h2>
+    <HomeComponent/>
     <h2>Shop</h2>
     <h2>Product Details</h2>
     <h2>Gallery</h2>

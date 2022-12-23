@@ -9,6 +9,32 @@
     color: #F3692E;
 }
 
-.icon-heading-container{
+.icon-heading-container {
     display: flex;
+    text-align: right;
+    padding-left: 20%;
+    justify-content: space-between;
+
 }
+.icon-heading-container span {
+
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.nav-items{
+   margin-left: 2.4rem;
+    justify-content: space-between;
+    --bs-nav-link-color:#41464b;
+    --bs-nav-link-active-color:#F3692E;
+    --bs-nav-link-hover-color: #F3692E;
+}
+.nav-searchBar{
+    width: 25rem;
+}
+
+.nav-searchBar input{
+    width: 25rem;
+    border-radius: 5%;
+    
+}
+

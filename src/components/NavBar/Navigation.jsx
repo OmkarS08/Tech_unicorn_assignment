@@ -8,30 +8,33 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 export const Navigation =() =>{
+   const style = { color: "black", fontSize: "1.5em" }
         return (
 <div>
 <div className='heading-container'>
 <div className='brand-logo-container'>
-   <h2>Dealerz.</h2>
+<Nav className="me-auto">
+       <Nav.Link ><h2>Dealerz.</h2></Nav.Link>
+</Nav>  
 </div>
 <div className='icon-heading-container'>
-   <span><IoCallOutline/>Call Center</span>
-   <span><MdOutlineLocalShipping/>Shipping & Return</span>
+   <span><IoCallOutline style={style} />Call Center</span>
+   <span><MdOutlineLocalShipping style={style}/>Shipping & Return</span>
 </div>
 </div>
 <div>
-<Navbar bg="dark" sticky="top" variant="dark">
+<Navbar bg="light" sticky="top" variant="dark">
    <Container>
-   <Nav className="me-auto">
-       <Nav.Link href="#home">Shop</Nav.Link>
-       <Nav.Link href="#features">Promo</Nav.Link>
-       <Nav.Link href="#pricing">About</Nav.Link>
-       <Nav.Link href="#pricing">Blog</Nav.Link>
-       <Nav.Link as='span' href="#pricing"><input type='search' placeholder={`Search What you need`} /></Nav.Link>
-       <Nav.Link href="#pricing"><IoHeartOutline/></Nav.Link>
-       <Nav.Link href="#pricing"><AiOutlineShoppingCart/></Nav.Link>
-       <Nav.Link href="#pricing"><AiOutlineUser/></Nav.Link>
-       <Nav.Link href="#pricing"><AiOutlineBell/></Nav.Link>
+   <Nav  className="me-auto ">
+       <Nav.Link className='nav-items' href="#home">Shop</Nav.Link>
+       <Nav.Link className='nav-items' href="#features">Promo</Nav.Link>
+       <Nav.Link className='nav-items' href="#pricing">About</Nav.Link>
+       <Nav.Link className='nav-items' href="#pricing">Blog</Nav.Link>
+       <Nav.Link className='nav-searchBar' as='span' href="#pricing"><input type='search' placeholder='Search What you need' /></Nav.Link>
+       <Nav.Link className='nav-items' href="#pricing"><IoHeartOutline style={style}/></Nav.Link>
+       <Nav.Link className='nav-items' href="#pricing"><AiOutlineShoppingCart style={style}/></Nav.Link>
+       <Nav.Link className='nav-items' href="#pricing"><AiOutlineUser style={style}/></Nav.Link>
+       <Nav.Link className='nav-items' href="#pricing"><AiOutlineBell style={style}/></Nav.Link>
    </Nav>
    </Container>
 </Navbar>
@@ -40,24 +43,3 @@ export const Navigation =() =>{
           );}
 
 
-{/* <div className='heading-container'>
-<div className='brand-logo-container'>
-   <h2>Dealerz</h2>
-</div>
-<div className='icon-heading-container'>
-   <span><IoCallOutline/>Call Center</span>
-   <span><MdOutlineLocalShipping/>Shipping & Return</span>
-</div>
-</div>
-<div>
-<Navbar bg="dark" variant="dark">
-   <Container>
-   <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-   <Nav className="me-auto">
-       <Nav.Link href="#home">Home</Nav.Link>
-       <Nav.Link href="#features">Features</Nav.Link>
-       <Nav.Link href="#pricing">Pricing</Nav.Link>
-   </Nav>
-   </Container>
-</Navbar>
-</div>      */}

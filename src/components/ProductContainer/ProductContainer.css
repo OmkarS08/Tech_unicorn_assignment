@@ -1,0 +1,19 @@
+.product-container{
+    background-color: #E5E5E5;
+    height: auto;
+    width: 100%;
+    margin-left: 40px;
+    padding-left: 50px;
+}
+.product-card-container {
+width: 100%;
+display: grid;
+grid-template-columns:repeat(4 ,1fr);
+column-gap: 10px;
+row-gap: 1rem;
+}
+.product-title{
+    padding-top: 40px;
+    padding-bottom:30px;
+    text-align: center;
+}
