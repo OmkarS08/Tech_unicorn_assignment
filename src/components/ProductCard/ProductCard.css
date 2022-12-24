@@ -1,8 +1,7 @@
 .Project-Card{
-    width: 500px;
+    width: 500x;
     height: 500px;
     padding: 10px 10px;
-    margin: auto;
     justify-content: space-around;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }

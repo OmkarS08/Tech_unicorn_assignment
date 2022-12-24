@@ -3,13 +3,14 @@
     height: auto;
     width: 100%;
     margin-left: 40px;
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .product-card-container {
 width: 100%;
 display: grid;
 grid-template-columns:repeat(4 ,1fr);
-column-gap: 10px;
+column-gap: 20px;
 row-gap: 1rem;
 }
 .product-title{
@@ -30,4 +31,21 @@ row-gap: 1rem;
     color: white;
     width: 8rem;
     height: 2rem;
+}
+.Functionality{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ .SearchBar{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.SearchBar input{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width:50%;
+    height: 10%;
 }
