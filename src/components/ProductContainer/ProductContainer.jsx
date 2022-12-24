@@ -60,12 +60,12 @@ const CategoryData =getUniqueData(data ,"category");
                 ></input>
             </div>
             <div className='CategorySort'>
-            <h3>category</h3>
+            <h3>Category-Sort</h3>
             <div>
             {CategoryData.map((item)=>{ return <button key={item} name={item} onClick={()=>handleClick(item)}>{item}</button>})}
             </div>
             <div className='PriceSort'>
-                <h3>Price</h3>
+                <h3>Price-Sort</h3>
                 <div>
                     <form action='#'>
                         <label htmlFor='sort'></label>

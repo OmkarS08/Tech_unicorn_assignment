@@ -49,3 +49,32 @@ row-gap: 1rem;
     width:50%;
     height: 10%;
 }
+.CategorySort{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.CategorySort button{
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.PriceSort{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+.PriceSort h3{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+.PriceSort select{
+    width: 25%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
