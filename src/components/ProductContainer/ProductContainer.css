@@ -9,7 +9,7 @@
 .product-card-container {
 width: 100%;
 display: grid;
-grid-template-columns:repeat(4 ,1fr);
+grid-template-columns:repeat(5 ,1fr);
 column-gap: 20px;
 row-gap: 1rem;
 }
@@ -44,10 +44,8 @@ row-gap: 1rem;
 }
 .SearchBar input{
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    width:50%;
-    height: 10%;
+    width:55%;
+    height: 60%;
 }
 .CategorySort{
     width: 100%;
@@ -56,8 +54,6 @@ row-gap: 1rem;
 }
 .CategorySort button{
     width: 200px;
-    padding-top: 15px;
-    padding-bottom: 20px;
     margin-left: 20px;
 }
 .PriceSort{
@@ -74,7 +70,5 @@ row-gap: 1rem;
 }
 .PriceSort select{
     width: 25%;
-    padding-top: 15px;
-    padding-bottom: 20px;
 
 }
